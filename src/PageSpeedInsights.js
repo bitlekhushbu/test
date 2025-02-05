@@ -11,6 +11,7 @@ import {
 } from '@mui/material';
 import ImageTextSection from './AllFiles/ImageTextSection';
 import GreenPanel from './AllFiles/GreenPanel';
+import GetBadge from './AllFiles/GetBadge';
 
 
 const PageSpeedInsights = () => {
@@ -136,6 +137,7 @@ const PageSpeedInsights = () => {
       )}
       <ImageTextSection />
       <GreenPanel />
+      <GetBadge />
 
     </div>
   );
