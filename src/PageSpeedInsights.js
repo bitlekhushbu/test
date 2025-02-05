@@ -9,6 +9,9 @@ import {
   TextField,
   MenuItem,
 } from '@mui/material';
+import ImageTextSection from './AllFiles/ImageTextSection';
+import GreenPanel from './AllFiles/GreenPanel';
+
 
 const PageSpeedInsights = () => {
   const [selectedLayoutClass, setSelectedLayoutClass] = useState('');
@@ -95,6 +98,7 @@ const PageSpeedInsights = () => {
   return (
     <div className="container" id="main">
       <h1>Webpage Speed Test</h1>
+      
       <form onSubmit={getPageSpeedInsights}>
         <Grid container spacing={2} alignItems="center">
           <Grid item xs={12} sm={6}>
@@ -128,7 +132,11 @@ const PageSpeedInsights = () => {
             <a href={generatedUrl} target="_blank" rel="noopener noreferrer">{generatedUrl}</a>
           </div>
         </div>
+        
       )}
+      <ImageTextSection />
+      <GreenPanel />
+
     </div>
   );
 };

@@ -1,5 +1,5 @@
 body{
-  background:#fafafb;
+  background:#fff;
 }
 
 
@@ -31,7 +31,7 @@ h2 {
 }
 
 .container {
-    max-width: 700px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     
@@ -125,11 +125,13 @@ h2 {
   }
 
   .final-screenshot-load img{
-      max-width: 200px;
+      max-width: 100%;
+      width: 100%;
   }
 
   .desktop-layout  .final-screenshot-load img{
-    max-width: 400px;
+    max-width: 100%;
+    width: 100%;
 }
 
 
