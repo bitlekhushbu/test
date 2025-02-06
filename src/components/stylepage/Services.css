@@ -1,0 +1,110 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Container */
+.page-width {
+  max-width: 1800px;
+  margin: auto;
+  padding: 0 5rem;
+}
+
+/* Services Section */
+.services {
+  background: #f3f3f3;
+  padding: 80px 0;
+}
+
+.services-heading h2 {
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.services-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 70px;
+}
+
+.service-card {
+  background: #fff;
+  color: #000;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.service-icon {
+  max-width: 50px;
+}
+
+.service-icon img {
+  width: 100%;
+  height: auto;
+}
+
+.service-cont-heading {
+  font-size: 19px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.service-data-content {
+  font-size: 18px;
+}
+
+/* SVG Blobs */
+.about-standardise_blog-wrap {
+  position: absolute;
+  max-width: 310px;
+}
+
+.about-standardise_blog-wrap.blue {
+  color: #abdcff;
+  top: -60px;
+  left: -50px;
+}
+
+.about-standardise_blog-wrap.green {
+  color: #c3e9d4;
+  top: -40px;
+  left: -50px;
+}
+
+.about-standardise_blog-wrap.orange {
+  color: #ffe0cc;
+  top: -27px;
+  left: -49px;
+}
+
+.about-standardise_blog-wrap.red {
+  color: #ffccd5;
+  top: -55px;
+  right: -49px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .services-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .services-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

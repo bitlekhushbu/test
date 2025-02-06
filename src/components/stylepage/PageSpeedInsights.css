@@ -1,0 +1,236 @@
+/* Hero Section Styles */
+.hero-section {
+  padding: 60px 0;
+  background: #e0f3ff;
+  height: 850px;
+}
+
+.page-width {
+  max-width: 1800px;
+  margin: auto;
+  padding: 0 5rem;
+}
+
+/* Center align elements */
+.hero-inner {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.hero-inner h4 {
+  color: #00843d;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.hero-inner h1 {
+  color: #00843d;
+  font-size: 84px;
+  font-weight: bold;
+}
+
+/* Style for the section that contains the form */
+.section-home {
+  margin-top: 40px;
+  background: #fff;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 70px 90px 80px;
+  border-radius: 22px;
+  box-shadow: 0 9px 17px rgba(67, 65, 79, 0.1);
+}
+
+.section-home h3 {
+  color: #00843d;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.section-home form {
+  margin-top: 20px;
+}
+
+.section-home .MuiGrid-item {
+  margin-bottom: 20px;
+}
+
+/* Form Input Fields */
+.section-home .MuiTextField-root {
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+/* Submit Button */
+.section-home .MuiButton-root {
+  height: 60px;
+  background-color: #00843d;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  line-height: 27px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.section-home .MuiButton-root:disabled {
+  background-color: #6c6c6c;
+  cursor: not-allowed;
+}
+
+/* Loading and Result Messages */
+section p {
+  color: #0c0c0c;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.results {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.results h3 {
+  margin-bottom: 10px;
+}
+
+.results p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.results a {
+  color: #00843d;
+  text-decoration: none;
+}
+
+.results a:hover {
+  text-decoration: underline;
+}
+
+/* Linear progress bar styling */
+.MuiLinearProgress-root {
+  margin-top: 20px;
+}
+
+/* SVG transform */
+.hero-section svg {
+  transform: rotate(180deg);
+  position: relative;
+  bottom: -65px;
+}
+
+/* Reset box-sizing */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Responsive Design */
+
+/* Laptops (Max-width: 1200px) */
+@media (max-width: 1200px) {
+  .hero-section {
+    height: auto;
+    padding: 60px 0;
+  }
+
+  .hero-inner h1 {
+    font-size: 64px;
+  }
+
+  .section-home {
+    max-width: 800px;
+    padding: 60px 50px;
+  }
+
+  .section-home h3 {
+    font-size: 24px;
+  }
+
+  .section-home .MuiButton-root {
+    font-size: 16px;
+  }
+}
+
+/* Tablets (Max-width: 992px) */
+@media (max-width: 992px) {
+  .hero-section {
+    padding: 40px 0;
+    height: auto;
+  }
+
+  .hero-inner h1 {
+    font-size: 48px;
+  }
+
+  .section-home {
+    max-width: 600px;
+    padding: 50px 40px;
+  }
+
+  .section-home h3 {
+    font-size: 22px;
+  }
+
+  .section-home .MuiButton-root {
+    font-size: 16px;
+  }
+}
+
+/* Mobile (Max-width: 768px) */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 40px 0;
+    height: auto;
+  }
+
+  .hero-inner h1 {
+    font-size: 36px;
+  }
+
+  .section-home {
+    max-width: 500px;
+    padding: 40px 30px;
+  }
+
+  .section-home h3 {
+    font-size: 20px;
+  }
+
+  .section-home .MuiButton-root {
+    font-size: 14px;
+  }
+}
+
+/* Small Mobile Devices (Max-width: 480px) */
+@media (max-width: 480px) {
+  .hero-inner h4 {
+    font-size: 16px;
+  }
+
+  .hero-inner h1 {
+    font-size: 28px;
+  }
+
+  .section-home {
+    max-width: 100%;
+    padding: 30px 20px;
+  }
+
+  .section-home h3 {
+    font-size: 18px;
+  }
+
+  .section-home .MuiButton-root {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

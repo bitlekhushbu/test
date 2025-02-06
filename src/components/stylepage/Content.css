@@ -1,0 +1,79 @@
+/* General Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section Styling */
+.image-with-text {
+  padding: 130px 0 125px;
+  background-color: #f8f9fa;
+}
+
+.page-width {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* Flexbox for layout */
+.image-with-text-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* Image Container */
+.image-container {
+  width: 45%;
+}
+
+.media-banner {
+  border: 5px solid #67a864;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.media-banner img {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+}
+
+/* Text Content */
+.text-container {
+  width: 55%;
+}
+
+.content-info h2 {
+  font-size: 50px;
+  margin-bottom: 40px;
+  color: #00843d;
+}
+
+.content-info p {
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .image-with-text-block {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image-container, .text-container {
+    width: 100%;
+  }
+}
+
+/* Decorative SVG Styling */
+svg {
+  margin-top: -18px;
+  transform: rotate(180deg);
+}
