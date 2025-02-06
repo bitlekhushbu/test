@@ -30,12 +30,12 @@ h2 {
    margin-top: 0px;
 }
 
-.container {
+/* .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     
-  }
+  } */
   .container h1{
     text-align: center;
     
@@ -165,3 +165,8 @@ h2 {
   gap:30px;
 }
 
+.page-width{
+  max-width: 1800px;
+  margin: auto;
+  padding: 0 5rem;
+}

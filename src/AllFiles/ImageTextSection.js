@@ -4,6 +4,8 @@ import './ImageTextSection.css'; // Import the CSS file
 
 const ImageTextSection = () => {
   return (
+    <div className='image-with-text'>
+    <div className='page-width'>
     <div className="image-text-container">
       {/* Image Section */}
       <div className="image-container">
@@ -23,6 +25,8 @@ const ImageTextSection = () => {
         Every small improvement makes the internet greener.
         </p>
       </div>
+    </div>
+    </div>
     </div>
   );
 };

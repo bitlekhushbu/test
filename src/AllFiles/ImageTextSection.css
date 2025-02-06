@@ -37,7 +37,9 @@
     line-height: 21px;
     margin-bottom: 15px;
   }
-  
+  .image-with-text {
+    padding: 0px 0 125px;
+}
   /* Responsive Design: Stack on small screens */
   @media (max-width: 768px) {
     .image-text-container {

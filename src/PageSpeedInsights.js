@@ -12,6 +12,7 @@ import {
 import ImageTextSection from './AllFiles/ImageTextSection';
 import GreenPanel from './AllFiles/GreenPanel';
 import GetBadge from './AllFiles/GetBadge';
+import ContactForm from './AllFiles/ContactForm';
 
 
 const PageSpeedInsights = () => {
@@ -138,6 +139,7 @@ const PageSpeedInsights = () => {
       <ImageTextSection />
       <GreenPanel />
       <GetBadge />
+      <ContactForm />
 
     </div>
   );
